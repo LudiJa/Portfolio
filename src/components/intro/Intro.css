@@ -1,0 +1,25 @@
+#contact {
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 13px;
+  text-align: center;
+}
+
+#contact li:first-child {
+  margin-top: 1.5em;
+}
+
+#contact li:last-child {
+  margin-bottom: 1.5em;
+}
+
+#contacts {
+  position: relative;
+}
+
+#contacts i {
+  position: absolute;
+  left: -2px;
+  top: -8px;
+  font-size: 40px;
+}

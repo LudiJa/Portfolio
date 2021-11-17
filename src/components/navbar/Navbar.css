@@ -1,0 +1,35 @@
+nav {
+  background-image: linear-gradient(
+    to right bottom,
+    #ae944f,
+    #e1d0b6,
+    #ae944f,
+    #e1d0b6
+  );
+  text-align: center;
+  color: #f8f4f5;
+  height: 100vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-top: 0.5em;
+}
+
+#profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 0.5px box-shadow;
+  box-shadow: 0 0 12px #f8cdd5;
+  margin: 1.5em auto;
+}
+
+#menu a {
+  color: crimson;
+}
+
+#logo a {
+  color: white;
+  margin-bottom: 0.5em;
+}

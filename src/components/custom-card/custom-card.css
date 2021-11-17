@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+* {
+  box-sizing: border-box;
+}
+
+#proj {
+  min-width: 350px;
+}
+#proj .menu-content {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#proj .menu-content::before,
+#proj .menu-content::after {
+  content: "";
+  display: table;
+}
+#proj .menu-content::after {
+  clear: both;
+}
+#proj .menu-content li {
+  display: inline-block;
+}
+#proj .menu-content a {
+  color: #fff;
+}
+#proj .wrapper {
+  min-height: 350px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+#proj .wrapper:hover .data {
+  transform: translateY(0);
+}
+#proj .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(calc(80px + 1em));
+  transition: transform 0.3s;
+}
+#proj .data .content {
+  padding: 1.5em;
+  position: relative;
+  z-index: 1;
+}
+#proj .type {
+  font-size: 12px;
+}
+#proj .title {
+  margin-top: 10px;
+}
+#proj .text {
+  height: 70px;
+  margin: 0;
+}
+#proj input[type="checkbox"] {
+  display: none;
+}
+#proj input[type="checkbox"]:checked + .menu-content {
+  transform: translateY(-60px);
+}
+
+.example-2 .wrapper {
+  background: url(https://images.unsplash.com/photo-1547405358-4ef2671bb1bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)
+    30% 1% / cover no-repeat;
+}
+.example-2 .date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 0.7em 2.5em 1.5rem 0.7em;
+  border-radius: 0 0 90% 0;
+}
+.example-2 .date span {
+  display: block;
+  text-align: center;
+}
+.example-2 .date .day {
+  font-weight: 700;
+  font-size: 24px;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+.example-2 .date .month {
+  text-transform: uppercase;
+}
+.example-2 .date .month,
+.example-2 .date .year {
+  font-size: 10px;
+}
+.example-2 .content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.example-2 .title a {
+  color: white;
+}
+
+.alternate-card {
+  float: left;
+  padding: 1rem;
+  min-width: 500px;
+}
+.alternate-card .menu-content {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.alternate-card .menu-content::before,
+.alternate-card .menu-content::after {
+  content: "";
+  display: table;
+}
+.alternate-card .menu-content::after {
+  clear: both;
+}
+.alternate-card .menu-content li {
+  display: inline-block;
+}
+.alternate-card .menu-content a {
+  color: #fff;
+}
+.alternate-card .wrapper {
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.alternate-card .wrapper:hover .data {
+  transform: translateY(0);
+}
+.alternate-card .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(calc(100% + 1em));
+  transition: transform 0.3s;
+}
+.alternate-card .data .content {
+  padding: 1.5em;
+  position: relative;
+  z-index: 1;
+}
+.alternate-card .type {
+  font-size: 12px;
+}
+.alternate-card .title {
+  margin-top: 10px;
+}
+.alternate-card .text {
+  height: 325px;
+  margin: 0;
+}
+.alternate-card input[type="checkbox"] {
+  display: none;
+}
+.alternate-card input[type="checkbox"]:checked + .menu-content {
+  transform: translateY(-60px);
+}
