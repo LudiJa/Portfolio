@@ -1,35 +1,110 @@
-nav {
-  background-image: linear-gradient(
-    to right bottom,
-    #ae944f,
-    #e1d0b6,
-    #ae944f,
-    #e1d0b6
-  );
+/* nav {
+  background: #5c5c5c;
   text-align: center;
   color: #f8f4f5;
-  height: 100vh;
-}
-
-h1 {
-  text-transform: uppercase;
-  margin-top: 0.5em;
 }
 
 #profil {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
-  border: solid 0.5px box-shadow;
   box-shadow: 0 0 12px #f8cdd5;
-  margin: 1.5em auto;
+  margin: 1.25em auto;
 }
 
 #menu a {
-  color: crimson;
+  display: block;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.4em 0;
+  text-align: start;
 }
 
 #logo a {
   color: white;
   margin-bottom: 0.5em;
+} */
+
+.profile-card-3 {
+  font-family: "Open Sans", Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  border: none;
+  background: #efefef;
+}
+.profile-card-3 .background-block {
+  float: left;
+  width: 100%;
+  height: 18vh;
+  overflow: hidden;
+}
+.profile-card-3 .background-block .background {
+  width: 100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+  -webkit-transform: scale(1.8);
+  transform: scale(2.8);
+}
+.profile-card-3 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  color: #232323;
+  float: left;
+  background: #efefef;
+  height: 80vh;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  z-index: 9999;
+}
+
+.profile-card-3 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 78%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  z-index: 99999;
+}
+.profile-card-3 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.profile-card-3 h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.profile-card-3 .icon-block {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+.profile-card-3 .icon-block a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a {
+  display: block;
+  color: inherit;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.4em 0;
+  text-align: start;
 }

@@ -49,13 +49,13 @@ const Comp = () => {
 
       <h2>SOFT SKILLS</h2>
       <div className="d-flex justify-content-center align-items-center">
-        <p>re </p>
+        <p>mot </p>
         <i class="fas fa-code"></i>
-        <span> re </span>
+        <span> mot </span>
         <i class="fas fa-code"></i>
-        <p> gt </p>
+        <p> mot </p>
         <i class="fas fa-code"></i>
-        <span> ertr </span>
+        <span> fromage </span>
       </div>
     </div>
   );

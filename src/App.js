@@ -24,8 +24,8 @@ function App() {
           <Projects />
           <br />
           <Exps />
-          <br />
-          <Interest />
+          {/* <br />
+          <Interest /> */}
         </main>
       </body>
     </Router>

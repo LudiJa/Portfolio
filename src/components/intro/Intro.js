@@ -3,7 +3,8 @@ import "./Intro.css";
 
 const Intro = () => {
   return (
-    <div className="diva p-4 d-flex align-items-center" id="intro">
+    <div className="diva p-4 align-items-center" id="intro">
+      <h1>Développeuse front-end web / web mobile</h1>
       <div className="card m-4 ">
         <div className="card-header" id="card-header">
           <h2 className="h3-responsive text-center">About me</h2>
@@ -19,7 +20,7 @@ const Intro = () => {
               </p>
               <p>
                 <div className="personal-sm">
-                  <ul className="d-flex gap-3">
+                  <ul className="d-flex gap-3 p-0">
                     <li>
                       <a
                         href="https://www.linkedin.com/in/ludivine-jamin/"

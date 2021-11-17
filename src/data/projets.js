@@ -14,7 +14,7 @@ const projets = [
   {
     id: 2,
     img: stuliday,
-    title: "Site réservation de logement",
+    title: "Location saisonnière",
     state: "En cours",
     techno: "PHP - MySQL",
     text: "project en cours",
