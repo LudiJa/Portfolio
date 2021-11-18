@@ -1,5 +1,6 @@
 .profile-card-3 {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Roboto Condensed", sans-serif !important;
+  text-transform: uppercase;
   position: relative;
   float: left;
   overflow: hidden;

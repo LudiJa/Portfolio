@@ -12,18 +12,15 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 function App() {
   return (
     <Router>
-      <body className="row g-0">
+      <body className="row g-0 w-100">
         <aside className="col-md-2">
           <Navbar />
         </aside>
 
         <main className="col-md-10">
           <Intro />
-          <br />
           <Comp />
-          <br />
           <Projects />
-          <br />
           <Exps />
           {/* <br />
           <Interest /> */}

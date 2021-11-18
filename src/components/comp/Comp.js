@@ -43,12 +43,27 @@ const Comp = () => {
             <img src={dbeaver} alt="dbeaver" />
           </li>
         </ul>
-        <p>agile scrum</p>
-        <p>anglais</p>
-
-        <p>Integration web</p>
-        <p>responsive design</p>
-        <p>Site avec CMS Wordpress</p>
+        <br />
+        <ul>
+          <li>
+            <i class="fas fa-laptop-code"></i> Integration web
+          </li>
+          <li>
+            {" "}
+            <i class="fas fa-desktop"></i> Responsive design{" "}
+            <i class="fas fa-mobile-alt"></i> <i class="fas fa-tablet-alt"></i>
+          </li>
+          <li>
+            <i class="fab fa-wordpress"></i> Site avec CMS Wordpress{" "}
+          </li>
+          <li>
+            <i class="fas fa-paste"></i> Méthode Agile Scrum
+          </li>
+          <li>
+            <i class="fas fa-comments"></i> Anglais professionnel{" "}
+            <i class="fas fa-book-open"></i>
+          </li>
+        </ul>
       </div>
 
       <h2>Soft Skills</h2>
