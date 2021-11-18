@@ -14,7 +14,7 @@ const Comp = () => {
     <div className="divb p-4" id="comp">
       <h2>Skills</h2>
       <div>
-        <ul className="d-flex justify-content-center">
+        <ul className="d-flex" id="skill">
           <li>
             <img src={html} alt="html5" />
           </li>
@@ -30,8 +30,6 @@ const Comp = () => {
           <li>
             <img src={bootstrap} alt="bootstrap" />
           </li>
-        </ul>
-        <ul className="d-flex justify-content-center">
           <li>
             <img src={php} alt="php" />
           </li>
@@ -45,18 +43,45 @@ const Comp = () => {
             <img src={dbeaver} alt="dbeaver" />
           </li>
         </ul>
+        <p>agile scrum</p>
+        <p>anglais</p>
+
+        <p>Integration web</p>
+        <p>responsive design</p>
+        <p>Site avec CMS Wordpress</p>
       </div>
 
-      <h2>SOFT SKILLS</h2>
-      <div className="d-flex justify-content-center align-items-center">
-        <p>mot </p>
+      <h2>Soft Skills</h2>
+      <ul
+        className="d-flex flex-wrap justify-content-center align-items-center m-4"
+        id="skills"
+      >
+        <li className="skill3">Dynamique</li>
         <i class="fas fa-code"></i>
-        <span> mot </span>
+        <li>Motivée</li>
         <i class="fas fa-code"></i>
-        <p> mot </p>
+        <li>Esprit critique</li>
         <i class="fas fa-code"></i>
-        <span> fromage </span>
-      </div>
+        <li className="skill2">Passionnée</li>
+        <i class="fas fa-code"></i>
+        <li>Réactive</li>
+        <i class="fas fa-code"></i>
+        <li className="skill3">Autonome</li>
+        <i class="fas fa-code"></i>
+        <li>A l'écoute</li>
+        <i class="fas fa-code"></i>
+        <li className="skill2">Sens du travail en équipe</li>
+        <i class="fas fa-code"></i>
+        <li>Solidaire</li>
+        <i class="fas fa-code"></i>
+        <li className="skill3">Curieuse</li>
+        <i class="fas fa-code"></i>
+        <li className="skill2">Rigoureuse</li>
+        <i class="fas fa-code"></i>
+        <li>Ouverture d'esprit</li>
+        <i class="fas fa-code"></i>
+        <li className="skill2">Créative</li>
+      </ul>
     </div>
   );
 };

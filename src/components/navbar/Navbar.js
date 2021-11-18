@@ -3,7 +3,7 @@ import profil from "../../assets/profil.jpg";
 
 const Navbar = () => {
   return (
-    <div class="card profile-card-3 sticky-top">
+    <div class="card profile-card-3 sticky-top" id="navbar">
       <div class="background-block">
         <img
           src="https://cdn.pixabay.com/photo/2017/08/20/09/10/system-2660914_960_720.jpg"
@@ -25,13 +25,13 @@ const Navbar = () => {
               <a href="#intro">Web developpeuse</a>
             </li>
             <li>
-              <a href="#comp">Ses compétences</a>
+              <a href="#comp">compétences</a>
             </li>
             <li>
-              <a href="#projects">Ses projets</a>
+              <a href="#projects">projets</a>
             </li>
             <li>
-              <a href="#exps">Ses expériences</a>
+              <a href="#exps">expériences</a>
             </li>
           </ul>
         </div>

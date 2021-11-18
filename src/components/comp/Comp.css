@@ -1,4 +1,18 @@
-#comp span {
-  font-size: 50px;
-  margin: 0 10px;
+.skill3 {
+  font-size: 2.5em;
+}
+
+.skill2 {
+  font-size: 1.5em;
+}
+
+#skills i {
+  margin: 1em;
+  font-size: small;
+  color: #64bac7;
+}
+
+#skill {
+  width: 70%;
+  margin: auto;
 }

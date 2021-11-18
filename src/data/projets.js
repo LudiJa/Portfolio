@@ -6,10 +6,10 @@ const projets = [
     id: 1,
     img: "",
     title: "Mon portfolio",
-    state: "Terminé",
+    state: "à venir : traduction anglaise",
     link: `#intro`,
     techno: "React - Bootstrap",
-    text: "Ce portfolio",
+    text: "Premier projet réalisé à l'aide de React JS. En continuelle évolution ! ",
   },
   {
     id: 2,
@@ -17,15 +17,15 @@ const projets = [
     title: "Location saisonnière",
     state: "En cours",
     techno: "PHP - MySQL",
-    text: "project en cours",
+    text: "Site de réservation de logement pour les vacances. Premier projet à l'aide de PHP. Recherche d'annonces par ville, page de connexion et d'inscription, espace utilisateur avec ajout, modification et suppression d'annonces, réservation, annulation, déconnexion.",
   },
   {
     id: 3,
     img: archi,
-    title: "Site d'architecte",
-    state: "En cours",
-    techno: "React - Bootstrap",
-    text: "",
+    title: "Portfolio architecte d'intérieur",
+    state: "En cours : maquettage",
+    techno: "HTML / CSS - Javascript - Bootstrap",
+    text: "Portoflio d'architecte d'intérieur à partir d'une maquette.",
   },
 ];
 

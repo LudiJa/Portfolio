@@ -7,14 +7,16 @@ const CustomCard = ({ img, title, state, techno, link, text }) => {
         class="wrapper"
         style={{ background: `url('${img}') 30% 1% / cover no-repeat` }}
       >
-        <div class="date">
-          <span class="month">{state}</span>
+        <div class="state">
+          <span>{state}</span>
         </div>
         <div class="data">
           <div class="content">
             <span class="type">{techno}</span>
             <h1 class="title">
-              <a href={link}>{title}</a>
+              <a href={link}>
+                <h3>{title}</h3>
+              </a>
             </h1>
             <p class="text">{text}</p>
           </div>

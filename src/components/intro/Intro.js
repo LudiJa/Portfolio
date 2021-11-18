@@ -4,18 +4,18 @@ import "./Intro.css";
 const Intro = () => {
   return (
     <div className="diva p-4 align-items-center" id="intro">
-      <h1>Développeuse front-end web / web mobile</h1>
       <div className="card m-4 ">
         <div className="card-header" id="card-header">
-          <h2 className="h3-responsive text-center">About me</h2>
+          <h1 className="h3-responsive text-center">
+            Développeuse front-end web / web mobile
+          </h1>
         </div>
         <div className="card-body p-5 ">
           <div className="row">
             <div className=" col-12 col-sm-10">
               <p>
                 <strong>
-                  Développeuse web - Stage à partir du 10 janvier 2022 - 2 à 6
-                  mois
+                  En recherche de stage à partir du 10 janvier 2022 - 2 à 6 mois
                 </strong>
               </p>
               <p>
@@ -37,7 +37,7 @@ const Intro = () => {
                   </ul>
                 </div>
               </p>
-              <p className="hidden-md-down">
+              <p>
                 Dynamique et toujours à la recherche de nouveaux challenges, je
                 quitte la librairie pour le développement web, web mobile, et
                 mobile.
@@ -51,25 +51,34 @@ const Intro = () => {
                   réaliser des sites et applications toujours plus innovants.
                 </p>
               </p>
-              <button type="button" class="btn btn-outline-info">
-                <a href={CV} target="_blank">
-                  CV
-                </a>
-              </button>
-              <button type="button" class="btn btn-outline-info">
-                <a href={CV} target="_blank">
-                  Contactez-moi !
-                </a>
-              </button>
+              <div className="d-flex gap-4 justify-content-end">
+                <button type="button" class="btn btn-outline-info">
+                  <a href={CV} target="_blank">
+                    CV
+                  </a>
+                </button>
+                <button type="button" class="btn btn-outline-info">
+                  <a href="mailto:lud.jamin@gmail.com" target="_blank">
+                    Contactez-moi !
+                  </a>
+                </button>
+              </div>
             </div>
             <div className="col-12 col-lg-2" id="contacts">
-              <i className="fas fa-bookmark"></i>
+              <i className="fas fa-bookmark" id="ifirst"></i>
               <ul id="contact">
-                <li>lud.jamin@gmail.com</li>
-                <li>06 44 93 33 06</li>
-                <li>PESSAC</li>
-                <li>27 ans</li>
-                <li>Véhiculée permis B</li>
+                <li>
+                  06 44 93 33 06 <i class="fas fa-mobile"></i>
+                </li>
+                <li>
+                  BORDEAUX <i class="fas fa-map-marker-alt"></i>
+                </li>
+                <li>
+                  <i class="fas fa-birthday-cake"></i> 27 ans
+                </li>
+                <li>
+                  <i class="fas fa-car"></i> Véhiculée
+                </li>
               </ul>
             </div>
           </div>

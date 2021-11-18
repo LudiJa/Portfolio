@@ -6,7 +6,7 @@ h1 {
 }
 
 #contact {
-  border: 1px solid;
+  border: 2px solid #43a0b5;
   border-radius: 5px;
   font-size: 13px;
   text-align: center;
@@ -17,9 +17,10 @@ h1 {
   position: relative;
 }
 
-#contacts i {
+#ifirst {
   position: absolute;
   left: -2px;
   top: -8px;
   font-size: 40px;
+  color: #43a0b5;
 }

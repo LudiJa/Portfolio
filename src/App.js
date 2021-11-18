@@ -7,6 +7,7 @@ import Comp from "./components/comp/Comp";
 import Exps from "./components/exps/Exps";
 import Projects from "./components/projects/projects";
 import Interest from "./components/interest/Interest";
+import ScrollUp from "./components/scrollup/ScrollUp";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           <Exps />
           {/* <br />
           <Interest /> */}
+          <div className="scrollUp">
+            <ScrollUp />
+          </div>
         </main>
       </body>
     </Router>

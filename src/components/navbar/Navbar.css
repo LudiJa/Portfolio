@@ -23,7 +23,7 @@
 .profile-card-3 .card-content {
   width: 100%;
   padding: 15px 25px;
-  color: #232323;
+  color: #3d424f;
   float: left;
   background: #efefef;
   height: 100vh;
@@ -70,7 +70,7 @@
 
 #menu a {
   display: block;
-  color: #7f7f7f;
+  color: #3d424fc0;
   font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
@@ -83,11 +83,11 @@
   display: block;
   height: 1px;
   width: 3em;
-  background: #555;
+  background: #e85d3f;
 }
 
 #menu a:hover {
-  color: #002745;
+  color: #3d424f;
   font-size: 17px;
   transition: width 1s ease;
 }
@@ -99,5 +99,5 @@
 }
 
 #logo a:hover {
-  color: #05446d;
+  color: #08415c;
 }

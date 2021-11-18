@@ -23,9 +23,12 @@ const Exps = () => {
                   <div></div>
                 </div>
                 <div className="card-body">
-                  <h4 class="card-title  mt-3 mb-3">En cours - WebForce3</h4>
+                  <h4 class="card-title  mt-3 mb-3">
+                    En cours - WebForce3 Bordeaux
+                  </h4>
                   <p class="card-text">
-                    Licence langue, littérature et civilisation japonaise
+                    Formation FullStack : HTML/CSS - Javascript/JQuery - Angular
+                    - Wordpress - SQL - PHP - Symfony - Projet de groupe.
                   </p>
                 </div>
               </div>
@@ -59,7 +62,9 @@ const Exps = () => {
                     2016 - Université Bordeaux Montaigne
                   </h4>
                   <p class="card-text">
-                    Licence langue, littérature et civilisation japonaise
+                    Licence langue, littérature et civilisation japonaise.{" "}
+                    <br />
+                    J'ai vécu 2mois au Japon, en plus de séjours.
                   </p>
                 </div>
               </div>
@@ -77,13 +82,13 @@ const Exps = () => {
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
-                  border: "solid 1px #05446d",
+                  border: "solid 1px #64BAC7",
                 }}
                 contentArrowStyle={{
-                  borderRight: "7px solid  #05446d",
+                  borderRight: "7px solid  #64BAC7",
                 }}
                 date="avril 2021 - present"
-                iconStyle={{ background: "#05446d", color: "#000" }}
+                iconStyle={{ background: "#64BAC7", color: "#000" }}
               >
                 <h3 className="vertical-timeline-element-title">
                   Rédactrice fiches de lecture - anglais
@@ -91,7 +96,7 @@ const Exps = () => {
                 <h4 className="vertical-timeline-element-subtitle">
                   Bayard éditions
                 </h4>
-                <p>
+                <p class="font-weight-normal">
                   Lecture de manuscrits anglais et rédaction de fiches de
                   lecture.
                 </p>
@@ -101,19 +106,19 @@ const Exps = () => {
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
-                  border: "solid 1px #002745",
+                  border: "solid 1px #3d424f",
                 }}
                 contentArrowStyle={{
-                  borderRight: "7px solid  #002745",
+                  borderRight: "7px solid  #3d424f",
                 }}
                 date="2018 - 2020"
-                iconStyle={{ background: "#002745", color: "#fff" }}
+                iconStyle={{ background: "#3d424f", color: "#fff" }}
               >
                 <h3 className="vertical-timeline-element-title">Libraire</h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   Librairie Mollat, Bordeaux
                 </h4>
-                <p>
+                <p class="font-weight-normal">
                   Sciences humaines, jeunesse, tourisme et arts de vivre,
                   scolaire, accueil et caisse. <br />
                   Relation et conseil client, gestion de stock et organisation,
@@ -125,19 +130,19 @@ const Exps = () => {
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
-                  border: "solid 1px #002745",
+                  border: "solid 1px #3d424f",
                 }}
                 contentArrowStyle={{
-                  borderRight: "7px solid  #002745",
+                  borderRight: "7px solid  #3d424f",
                 }}
                 date="février 2018 - mars 2018"
-                iconStyle={{ background: "#002745", color: "#fff" }}
+                iconStyle={{ background: "#3d424f", color: "#fff" }}
               >
                 <h3 className="vertical-timeline-element-title">Libraire</h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   La Machine à Lire, Bordeaux
                 </h4>
-                <p>
+                <p class="font-weight-normal">
                   Sciences humaines, tourisme. <br />
                   Relation et conseil client, gestion de stock et organisation,
                   animation librairie/stand/site internet.
@@ -148,13 +153,13 @@ const Exps = () => {
                 contentStyle={{
                   background: "#fff",
                   color: "#000",
-                  border: "solid 1px #002745",
+                  border: "solid 1px #3d424f",
                 }}
                 contentArrowStyle={{
-                  borderRight: "7px solid  #002745",
+                  borderRight: "7px solid  #3d424f",
                 }}
                 date="2016 - 2017"
-                iconStyle={{ background: "#002745", color: "#fff" }}
+                iconStyle={{ background: "#3d424f", color: "#fff" }}
               >
                 <h3 className="vertical-timeline-element-title">
                   Employée polyvalente
@@ -162,7 +167,7 @@ const Exps = () => {
                 <h4 className="vertical-timeline-element-subtitle">
                   Intermarché, Talence
                 </h4>
-                <p>
+                <p class="font-weight-normal">
                   Réception de commande, inventaire, mise en rayon, gestion de
                   stock.
                 </p>
