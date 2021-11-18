@@ -6,7 +6,7 @@ const Navbar = () => {
     <div class="card profile-card-3 sticky-top">
       <div class="background-block">
         <img
-          src="https://images.unsplash.com/photo-1564325724739-bae0bd08762c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          src="https://cdn.pixabay.com/photo/2017/08/20/09/10/system-2660914_960_720.jpg"
           alt="profile-sample1"
           class="background"
         />

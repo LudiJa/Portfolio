@@ -1,9 +1,9 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 #card-header {
-  background: linear-gradient(to right bottom, #000137 0%, #010281 100%);
+  background: linear-gradient(to right bottom, #002745 0%, #05446d 100%);
   color: white;
 }
 
@@ -54,4 +54,14 @@ h2::after {
 
 #intro a {
   color: black;
+}
+
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 0.1px;
+}
+
+h4 {
+  font-size: 0.8em !important;
+  color: #7f7f7f;
 }

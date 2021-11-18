@@ -11,7 +11,6 @@
   width: 100%;
   height: 20vh;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
-  transform: translate(0%, 0%);
   z-index: 99999;
   position: absolute;
 }
@@ -19,7 +18,7 @@
   width: 100%;
   vertical-align: top;
   -webkit-transform: scale(1.8);
-  transform: scale(1);
+  transform: scale(2);
 }
 .profile-card-3 .card-content {
   width: 100%;
@@ -31,7 +30,7 @@
   border-radius: 0 0 5px 5px;
   position: relative;
   z-index: 9999;
-  padding-top: 11em;
+  padding-top: 25vh;
 }
 
 .profile-card-3 .profile {
@@ -88,16 +87,17 @@
 }
 
 #menu a:hover {
-  color: #000137;
-  transition: width 0.2s ease;
+  color: #002745;
+  font-size: 17px;
+  transition: width 1s ease;
 }
 
 #menu a:hover::after {
   width: 5em;
-  transition: width 0.2s ease;
+  transition: width 0.3s ease;
   height: 2px;
 }
 
 #logo a:hover {
-  color: #010281;
+  color: #05446d;
 }
