@@ -2,8 +2,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#card-header {
+  background: linear-gradient(to right bottom, #000137 0%, #010281 100%);
+  color: white;
+}
+
 .card {
-  box-shadow: 0 5px 38px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 38px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1);
   border: none !important;
   overflow: hidden !important;
 }

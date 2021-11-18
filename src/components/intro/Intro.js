@@ -19,7 +19,7 @@ const Intro = () => {
                 </strong>
               </p>
               <p>
-                <div className="personal-sm">
+                <div className="personal-sm" id="logo">
                   <ul className="d-flex gap-3 p-0">
                     <li>
                       <a

@@ -6,7 +6,7 @@ const Navbar = () => {
     <div class="card profile-card-3 sticky-top">
       <div class="background-block">
         <img
-          src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          src="https://images.unsplash.com/photo-1564325724739-bae0bd08762c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
           alt="profile-sample1"
           class="background"
         />
@@ -14,7 +14,7 @@ const Navbar = () => {
       <div class="profile-thumb-block">
         <img src={profil} alt="profile-image" class="profile" />
       </div>
-      <div class="card-content d-flex flex-column justify-content-around">
+      <div class="card-content d-flex flex-column justify-content-between">
         <h2>
           Ludivine Jamin<small>Developpeuse web / web mobile</small>
         </h2>
@@ -22,7 +22,7 @@ const Navbar = () => {
         <div id="menu">
           <ul>
             <li>
-              <a href="#intro">Webdeveloppeuse</a>
+              <a href="#intro">Web developpeuse</a>
             </li>
             <li>
               <a href="#comp">Ses compétences</a>
@@ -35,7 +35,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div class="icon-block d-flex justify-content-center">
+
+        <div class="icon-block d-flex justify-content-center" id="logo">
           <a
             className="nav-link"
             aria-current="page"
@@ -66,57 +67,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// {/* <div>
-{
-  /* <h2>Ludivine Jamin</h2>
-<img src={profil} alt="profil picture" id="profil" />
-</div> */
-}
-
-{
-  /* liens vers components */
-}
-{
-  /* <div id="menu">
-<ul>
-  <li>
-    <a href="#intro">Webdeveloppeuse</a>
-  </li>
-  <li>
-    <a href="#comp">Ses compétences</a>
-  </li>
-  <li>
-    <a href="#projects">Ses projets</a>
-  </li>
-  <li>
-    <a href="#exps">Ses expériences</a>
-  </li> */
-}
-{
-  /* <li>
-    <a href="#interest">Un peu plus...</a>
-  </li> */
-}
-{
-  /* </ul>
-</div> */
-}
-{
-  /* liens externes */
-}
-{
-  /* <div id="logo">
-<ul className="nav justify-content-center">
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-  <li>
-    
-  </li>
-</ul>
-</div> */
-}
