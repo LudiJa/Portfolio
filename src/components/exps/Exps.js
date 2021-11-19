@@ -7,10 +7,10 @@ import "./Exps.css";
 
 const Exps = () => {
   return (
-    <div className="divb p-4" id="exps">
+    <div className="divb" id="exps">
       {/* diplomes */}
+      <h2>diplômes et expériences</h2>
       <div className="education">
-        <h2>diplômes</h2>
         <div class="container" id="dipl">
           <div class="row justify-content-around">
             <div class="col-md-3 col-sm-6">
@@ -62,9 +62,8 @@ const Exps = () => {
                     2016 - Université Bordeaux Montaigne
                   </h4>
                   <p class="card-text">
-                    Licence langue, littérature et civilisation japonaise.{" "}
-                    <br />
-                    J'ai vécu 2mois au Japon, en plus de séjours.
+                    Licence langue, littérature et civilisation japonaise. J'ai
+                    vécu 2 mois au Japon, en plus de plusieurs séjours.
                   </p>
                 </div>
               </div>
@@ -72,9 +71,10 @@ const Exps = () => {
           </div>
         </div>
 
+        <div id="between"></div>
+
         {/* exps */}
         <div>
-          <h2>expériences</h2>
           <div className="timeline">
             <VerticalTimeline>
               <VerticalTimelineElement

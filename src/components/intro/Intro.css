@@ -1,10 +1,31 @@
 h1 {
-  font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   text-align: center;
   margin: 0.5em 0 0 0 !important;
-  color: #43a0b5;
+  color: white;
   font-size: 2.8em !important;
+  font-weight: 300 !important;
+}
+
+h1::after {
+  content: " ";
+  display: block;
+  height: 3px;
+  width: 10em;
+  background: #e85d3f;
+  margin: auto;
+  margin-top: 8px;
+  animation: myAnim 1.5s ease-in 0s 1 normal none;
+}
+
+@keyframes myAnim {
+  0% {
+    transform: scaleX(0);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
 }
 
 #contact {
@@ -28,10 +49,78 @@ h1 {
 }
 
 #intro {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(
+      to right,
+      rgba(61, 66, 79, 0.9),
+      rgba(61, 66, 79, 0.7)
+    ),
     url("https://images.unsplash.com/photo-1537884944318-390069bb8665?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+#btn {
+  background: #3d424f;
+  height: 40px;
+  min-width: 100px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  position: relative;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px 6px;
+  margin-bottom: 0.8em;
+}
+
+#btn #circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#btn:hover {
+  background: #43a0b5;
+}
+
+#btn:hover #circle {
+  height: 50px;
+  width: 150px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid transparent;
+}
+
+#pres {
+  text-align: justify;
+}
+
+#intro p span {
+  font-weight: 700;
+}
+
+#loisirs {
+  text-align: center;
+  letter-spacing: 2.5em;
+  margin: 1.5em 0;
 }

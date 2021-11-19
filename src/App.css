@@ -3,11 +3,6 @@ body {
   background: #3d424f !important;
 }
 
-#card-header {
-  background: #3d424f;
-  color: white;
-}
-
 .card {
   box-shadow: 0 5px 38px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1);
   border: none !important;
@@ -37,23 +32,22 @@ img {
 .diva,
 .divb {
   min-height: 100vh;
+  padding-right: 6em !important;
+  padding-left: 2em;
 }
 
 h2 {
   text-transform: uppercase;
+  font-weight: 200 !important;
+  padding: 1em 0 !important;
 }
 
-h2::after {
-  content: " ";
-  display: block;
-  width: 100 px;
-  height: 1 px;
-  margin: 20 px 0 20 px;
-  background: #555;
-}
-
-#intro a {
-  color: black;
+h2::before {
+  content: " " !important;
+  display: block !important;
+  height: 3.5px !important;
+  width: 2.5em !important;
+  background: #e85d3f !important;
 }
 
 h3 {
@@ -66,16 +60,29 @@ h4 {
   color: #7f7f7f;
 }
 
+#projects h2 {
+  color: #eeeeee;
+}
+
+#projects {
+  max-width: 100%;
+}
+
+#intro a {
+  color: black;
+}
+
 #up i {
   position: fixed;
   bottom: 2%;
   right: 2%;
   cursor: pointer;
   color: rgba(128, 128, 128, 0.637) !important;
+  font-size: x-large;
 }
 
 #up i:hover {
-  color: darkblue !important;
+  color: #43a0b5 !important;
 }
 
 .scrollUp {
@@ -85,5 +92,10 @@ h4 {
 @media screen and (max-width: 750px) {
   .scrollUp {
     display: block;
+  }
+
+  .diva,
+  .divb {
+    padding-right: 0 !important;
   }
 }

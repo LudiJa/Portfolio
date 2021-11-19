@@ -12,7 +12,15 @@
   color: #64bac7;
 }
 
-#skill {
-  width: 70%;
-  margin: auto;
+#skills {
+  margin: 5em !important;
+}
+
+#skill img {
+  max-height: 80px;
+}
+
+#work li {
+  font-size: large;
+  font-weight: 600;
 }

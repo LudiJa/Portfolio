@@ -102,3 +102,7 @@
 #logo a:hover {
   color: #08415c;
 }
+
+#navbar h2::before {
+  display: none !important;
+}

@@ -2,10 +2,10 @@ import "./custom-card.css";
 
 const CustomCard = ({ img, title, state, techno, link, text }) => {
   return (
-    <div class="example-2 card m-3" id="proj">
+    <div class="example-2 card" id="proj">
       <div
         class="wrapper"
-        style={{ background: `url('${img}') 30% 1% / cover no-repeat` }}
+        style={{ background: `url('${img}') 30% 1% / cover` }}
       >
         <div class="state">
           <span>{state}</span>

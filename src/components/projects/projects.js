@@ -3,7 +3,7 @@ import projets from "../../data/projets";
 
 const Projects = () => {
   return (
-    <section className="diva row p-4 justify-content-around" id="projects">
+    <section className="diva row justify-content-around" id="projects">
       <h2>Projets</h2>
       {projets.map((p) => (
         <div className="col-md-6">
