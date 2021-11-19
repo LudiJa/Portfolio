@@ -13,7 +13,7 @@ const Exps = () => {
       <div className="education">
         <div class="container" id="dipl">
           <div class="row justify-content-around">
-            <div class="col-md-3 col-sm-6">
+            <div class="carte col-md-3 col-sm-6">
               <div class="card card-block m-2">
                 <div className="card-header" id="wf3">
                   <i class="fas fa-terminal"></i>
@@ -33,7 +33,7 @@ const Exps = () => {
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="carte col-md-3 col-sm-6">
               <div class="card card-block m-2">
                 <div className="card-header" id="lib">
                   <i class="fas fa-book"></i>
@@ -50,7 +50,7 @@ const Exps = () => {
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="carte col-md-3 col-sm-6">
               <div class="card card-block m-2">
                 <div className="card-header" id="jap">
                   <i class="fas fa-language" id="lang"></i>

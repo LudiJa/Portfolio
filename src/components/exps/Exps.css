@@ -10,7 +10,11 @@
 #dipl .card {
   transition: 0.5s;
   cursor: pointer;
-  height: 45vh;
+  height: 100%;
+}
+
+#dipl .carte {
+  margin-bottom: 0.5em !important;
 }
 
 #dipl .card-header {
@@ -54,9 +58,6 @@
 #dipl .card:hover {
   transform: scale(1.05);
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-}
-#dipl .card-text {
-  height: 80px;
 }
 
 #dipl .card::before,

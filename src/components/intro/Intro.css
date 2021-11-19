@@ -125,3 +125,10 @@ h1::after {
   letter-spacing: 2.5em;
   margin: 0.5em 0;
 }
+
+@media screen and (max-width: 950px) {
+  #btncontact {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}

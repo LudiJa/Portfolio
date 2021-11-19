@@ -96,6 +96,6 @@ h4 {
 
   .diva,
   .divb {
-    padding-right: 0 !important;
+    padding: 0 1em !important;
   }
 }

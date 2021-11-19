@@ -13,66 +13,69 @@ const Comp = () => {
   return (
     <section className="divb" id="comp">
       <h2>Compétences</h2>
-      <div className=" d-flex flex-column">
-        <div className="d-flex justify-content-around" id="firstc">
-          <ul className="d-flex" id="skill">
-            <div>
+      <div className=" d-flex flex-column justify-content-around">
+        <div className="row mt-2 gap-5 justify-content-center">
+          <div className="col-md-4">
+            <ul className="d-flex" id="skill">
+              <div>
+                <li>
+                  <img src={html} alt="html5" />
+                </li>
+                <li>
+                  <img src={css} alt="css5" />
+                </li>
+                <li>
+                  <img src={javascript} alt="javascript" />
+                </li>
+              </div>
+              <div>
+                <li>
+                  <img src={react} alt="react js" />
+                </li>
+                <li>
+                  <img src={bootstrap} alt="bootstrap" />
+                </li>
+                <li>
+                  <img src={php} alt="php" />
+                </li>
+              </div>
+              <div>
+                <li>
+                  <img src={symfony} alt="symfony" />
+                </li>
+                <li>
+                  <img src={mysql} alt="mySQL" />
+                </li>
+                <li>
+                  <img src={dbeaver} alt="dbeaver" />
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div className="col-md-4">
+            <ul className="d-flex flex-column justify-content-around" id="work">
               <li>
-                <img src={html} alt="html5" />
+                <i class="fas fa-laptop-code"></i> Integration web
               </li>
               <li>
-                <img src={css} alt="css5" />
+                {" "}
+                <i class="fas fa-mobile-alt"></i> Responsive design
               </li>
               <li>
-                <img src={javascript} alt="javascript" />
-              </li>
-            </div>
-            <div>
-              <li>
-                <img src={react} alt="react js" />
+                <i class="fab fa-wordpress"></i> Site avec CMS Wordpress{" "}
               </li>
               <li>
-                <img src={bootstrap} alt="bootstrap" />
+                <i class="fas fa-paste"></i> Méthode Agile Scrum
               </li>
               <li>
-                <img src={php} alt="php" />
+                <i class="fas fa-comments"></i> Anglais professionnel
               </li>
-            </div>
-            <div>
-              <li>
-                <img src={symfony} alt="symfony" />
-              </li>
-              <li>
-                <img src={mysql} alt="mySQL" />
-              </li>
-              <li>
-                <img src={dbeaver} alt="dbeaver" />
-              </li>
-            </div>
-          </ul>
-
-          <ul className="d-flex flex-column justify-content-around" id="work">
-            <li>
-              <i class="fas fa-laptop-code"></i> Integration web
-            </li>
-            <li>
-              {" "}
-              <i class="fas fa-mobile-alt"></i> Responsive design
-            </li>
-            <li>
-              <i class="fab fa-wordpress"></i> Site avec CMS Wordpress{" "}
-            </li>
-            <li>
-              <i class="fas fa-paste"></i> Méthode Agile Scrum
-            </li>
-            <li>
-              <i class="fas fa-comments"></i> Anglais professionnel
-            </li>
-          </ul>
+            </ul>
+          </div>
         </div>
 
         <ul
-          className="d-flex flex-wrap justify-content-center align-items-center m-5"
+          className="d-flex flex-wrap justify-content-center align-items-center"
           id="skills"
         >
           <li className="skill3">Dynamique</li>

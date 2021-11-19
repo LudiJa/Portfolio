@@ -10,7 +10,7 @@ const Intro = () => {
           <div className=" col-12 col-sm-10">
             <p>
               <h3>
-                En recherche de stage à partir du 10 janvier 2022 - 2 à 6 mois
+                En recherche de stage à partir du 10 janvier 2022 - 6 mois
               </h3>
             </p>
             <p>
@@ -35,20 +35,21 @@ const Intro = () => {
             <div id="pres">
               <p>
                 Développeuse web en formation, je travaille aussi en autonomie,
-                particulièrement à l'aide de <span>React JS</span> , SQL et PHP
-                sur mes projets. Je souhaite approfondir mes connaissances dans
-                les langages et frameworks liés à <span>Javascript</span>,
-                notament React JS et React Native. Je m'oriente{" "}
-                <span>développement web</span> et{" "}
+                et je me sens à l'aise avec <span>React JS</span> ,{" "}
+                <span>SQL</span> et <span>PHP</span> sur mes projets. Je
+                souhaite approfondir mes connaissances dans les langages et
+                frameworks liés à <span>Javascript</span>, notament React JS et
+                React Native. Je m'oriente <span>développement web</span> et
+                souhaite en apprendre plus que le{" "}
                 <span>développement d'applications mobiles</span>.
               </p>
               <p>
-                Dynamique et toujours à la recherche de nouveaux challenges, je
-                recherche une entreprise prête à travailler avec moi. Je saurai
-                être un atout dans votre équipe grâce à ma motivation à me
-                perfectionner et mon efficacité à accomplir les tâches qui me
-                sont données. Sur site ou en télétravail, l'important pour moi
-                est la communication avec l'équipe et la possibilité d'en
+                Dynamique et ayant envie de nouveaux challenges, je recherche
+                une entreprise prête à travailler avec moi. Je saurai être un
+                atout dans votre équipe grâce à ma motivation à me perfectionner
+                et mon efficacité à accomplir les tâches qui me sont données.
+                Sur site ou en télétravail, l'important pour moi est la{" "}
+                <span>communication</span> avec l'équipe et la possibilité d'en
                 apprendre toujours plus pour créer et innover.
               </p>
               <p>
@@ -56,11 +57,8 @@ const Intro = () => {
                 libraire. Riche intellectuellement, mais aussi physique, j'ai pu
                 développer des compétences de communication et d'accompagnement,
                 avec les équipes et les clients, mais aussi de gestion et
-                d'autonomie. Le côté création/animation et conseil m'a toujours
-                plu, mais aussi l'organisation. J'aimerai aujourd'hui écouter ma
-                soif de nouveauté et d'apprentissage en me tournant vers un
-                métier toujours en mouvement, qui me permettra de toujours
-                travailler sur de nouveaux projets et d'innover.
+                d'autonomie. J'aimerai aujourd'hui écouter ma soif de nouveauté
+                en me tournant vers un métier toujours en mouvement.
               </p>
               <p id="loisirs">
                 <i class="fas fa-plane"></i>
@@ -80,7 +78,7 @@ const Intro = () => {
                 beaucoup de patience et de minutie.
               </p>
             </div>
-            <div className="d-flex gap-4 justify-content-end">
+            <div className="d-flex gap-4 justify-content-end" id="btncontact">
               <a href={CV} target="_blank">
                 <div id="btn">
                   <span class="noselect">Mon CV</span>
@@ -89,7 +87,7 @@ const Intro = () => {
               </a>
               <a href="mailto:lud.jamin@gmail.com" target="_blank">
                 <div id="btn">
-                  <span class="noselect">Contactez-moi !</span>
+                  <span class="noselect">Contact me</span>
                   <div id="circle"></div>
                 </div>
               </a>
