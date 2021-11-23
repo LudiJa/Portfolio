@@ -6,8 +6,8 @@ const Projects = () => {
     <section className="diva row justify-content-around" id="projects">
       <h2>Projets</h2>
       {projets.map((p) => (
-        <div className="col-md-6">
-          <CustomCard key={p.id} {...p} />
+        <div key={p.id} className="col-md-6">
+          <CustomCard {...p} />
         </div>
       ))}
     </section>

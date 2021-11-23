@@ -8,30 +8,26 @@ const Intro = () => {
       <div className="card p-4 m-4">
         <div className="row">
           <div className=" col-12 col-sm-10">
-            <p>
-              <h3>
-                En recherche de stage à partir du 10 janvier 2022 - 6 mois
-              </h3>
-            </p>
-            <p>
-              <div className="personal-sm" id="logo">
-                <ul className="d-flex gap-3 p-0">
-                  <li>
-                    <a
+            <h3>
+              En recherche de stage à partir du 10 janvier 2022 - 6 mois
+            </h3>
+            <div className="personal-sm" id="logo">
+              <ul className="d-flex gap-3 p-0">
+                <li>
+                  <a
                       href="https://www.linkedin.com/in/ludivine-jamin/"
                       target="_blank"
-                    >
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/LudiJa" target="_blank">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </p>
+                  >
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/LudiJa" target="_blank">
+                    <i className="fab fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
             <div id="pres">
               <p>
                 Développeuse web en formation, je travaille aussi en autonomie,
@@ -61,12 +57,12 @@ const Intro = () => {
                 en me tournant vers un métier toujours en mouvement.
               </p>
               <p id="loisirs">
-                <i class="fas fa-plane"></i>
-                <i class="fas fa-book-open"></i>
-                <i class="fas fa-gamepad"></i>
-                <i class="fas fa-dice-d20"></i>
-                <i class="fas fa-music"></i>
-                <i class="fas fa-volleyball-ball"></i>
+                <i className="fas fa-plane"></i>
+                <i className="fas fa-book-open"></i>
+                <i className="fas fa-gamepad"></i>
+                <i className="fas fa-dice-d20"></i>
+                <i className="fas fa-music"></i>
+                <i className="fas fa-volleyball-ball"></i>
               </p>
               <p>
                 Passionnée de voyages et de littérature, j'aime découvrir et
@@ -81,13 +77,13 @@ const Intro = () => {
             <div className="d-flex gap-4 justify-content-end" id="btncontact">
               <a href={CV} target="_blank">
                 <div id="btn">
-                  <span class="noselect">Mon CV</span>
+                  <span className="noselect">Mon CV</span>
                   <div id="circle"></div>
                 </div>
               </a>
               <a href="mailto:lud.jamin@gmail.com" target="_blank">
                 <div id="btn">
-                  <span class="noselect">Contact me</span>
+                  <span className="noselect">Contact me</span>
                   <div id="circle"></div>
                 </div>
               </a>
@@ -97,16 +93,16 @@ const Intro = () => {
             <i className="fas fa-bookmark" id="ifirst"></i>
             <ul id="contact">
               <li>
-                06 44 93 33 06 <i class="fas fa-mobile"></i>
+                06 44 93 33 06 <i className="fas fa-mobile"></i>
               </li>
               <li>
-                BORDEAUX <i class="fas fa-map-marker-alt"></i>
+                BORDEAUX <i className="fas fa-map-marker-alt"></i>
               </li>
               <li>
-                <i class="fas fa-birthday-cake"></i> 27 ans
+                <i className="fas fa-birthday-cake"></i> 27 ans
               </li>
               <li>
-                <i class="fas fa-car"></i> Véhiculée
+                <i className="fas fa-car"></i> Véhiculée
               </li>
             </ul>
           </div>

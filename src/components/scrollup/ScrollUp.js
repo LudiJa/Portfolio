@@ -1,7 +1,7 @@
 const ScrollUp = () => {
   return (
     <a id="up" href="#navbar">
-      <i class="fas fa-chevron-circle-up"></i>
+      <i className="fas fa-chevron-circle-up"></i>
     </a>
   );
 };

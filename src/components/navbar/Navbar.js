@@ -3,18 +3,18 @@ import profil from "../../assets/profil.jpg";
 
 const Navbar = () => {
   return (
-    <div class="card profile-card-3 sticky-top" id="navbar">
-      <div class="background-block">
+    <div className="card profile-card-3 sticky-top" id="navbar">
+      <div className="background-block">
         <img
           src="https://cdn.pixabay.com/photo/2017/08/20/09/10/system-2660914_960_720.jpg"
           alt="profile-sample1"
-          class="background"
+          className="background"
         />
       </div>
-      <div class="profile-thumb-block">
-        <img src={profil} alt="profile-image" class="profile" />
+      <div className="profile-thumb-block">
+        <img src={profil} alt="profile-image" className="profile" />
       </div>
-      <div class="card-content d-flex flex-column justify-content-between">
+      <div className="card-content d-flex flex-column justify-content-between">
         <h2>
           Ludivine Jamin<small>Developpeuse web / web mobile</small>
         </h2>
@@ -36,14 +36,14 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div class="icon-block d-flex justify-content-center" id="logo">
+        <div className="icon-block d-flex justify-content-center" id="logo">
           <a
             className="nav-link"
             aria-current="page"
             href="https://www.linkedin.com/in/ludivine-jamin/"
             target="_blank"
           >
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
           <a
             className="nav-link"
@@ -51,14 +51,14 @@ const Navbar = () => {
             href="https://github.com/LudiJa"
             target="_blank"
           >
-            <i class="fab fa-github"></i>
+            <i className="fab fa-github"></i>
           </a>
           <a
             className="nav-link"
             aria-current="page"
             href="mailto:lud.jamin@gmail.com"
           >
-            <i class="fas fa-envelope-open"></i>
+            <i className="fas fa-envelope-open"></i>
           </a>
         </div>
       </div>

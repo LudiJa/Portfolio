@@ -55,20 +55,20 @@ const Comp = () => {
           <div className="col-md-4">
             <ul className="d-flex flex-column justify-content-around" id="work">
               <li>
-                <i class="fas fa-laptop-code"></i> Integration web
+                <i className="fas fa-laptop-code"></i> Integration web
               </li>
               <li>
                 {" "}
-                <i class="fas fa-mobile-alt"></i> Responsive design
+                <i className="fas fa-mobile-alt"></i> Responsive design
               </li>
               <li>
-                <i class="fab fa-wordpress"></i> Site avec CMS Wordpress{" "}
+                <i className="fab fa-wordpress"></i> Site avec CMS Wordpress{" "}
               </li>
               <li>
-                <i class="fas fa-paste"></i> Méthode Agile Scrum
+                <i className="fas fa-paste"></i> Méthode Agile Scrum
               </li>
               <li>
-                <i class="fas fa-comments"></i> Anglais professionnel
+                <i className="fas fa-comments"></i> Anglais professionnel
               </li>
             </ul>
           </div>
@@ -79,29 +79,29 @@ const Comp = () => {
           id="skills"
         >
           <li className="skill3">Dynamique</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li>Motivée</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li>Force de proposition</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li className="skill2">Passionnée</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li>Réactive</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li className="skill3">Autonome</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li>A l'écoute</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li className="skill2">Sens du travail en équipe</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li>Solidaire</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li className="skill3">Curieuse</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li className="skill2">Rigoureuse</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li>Ouverture d'esprit</li>
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
           <li className="skill2">Créative</li>
         </ul>
       </div>

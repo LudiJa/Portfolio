@@ -6,13 +6,12 @@ import Intro from "./components/intro/Intro";
 import Comp from "./components/comp/Comp";
 import Exps from "./components/exps/Exps";
 import Projects from "./components/projects/projects";
-import Interest from "./components/interest/Interest";
 import ScrollUp from "./components/scrollup/ScrollUp";
 
 function App() {
   return (
     <Router>
-      <body className="row g-0 w-100">
+      <div className="row g-0 w-100">
         <aside className="col-md-2">
           <Navbar />
         </aside>
@@ -28,7 +27,7 @@ function App() {
             <ScrollUp />
           </div>
         </main>
-      </body>
+      </div>
     </Router>
   );
 }
